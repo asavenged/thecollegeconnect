@@ -1,0 +1,30 @@
+{
+    "name": "thecollegeconnect",
+    "description": "The College Connect",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "The College Connect",
+        "zf2"
+    ],
+    "homepage": "http://www.thecollegeconnect.com",
+    "authors" : [
+        {
+            "name": "Mark Cizek",
+            "email": "ddemon@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability" : "dev",
+    "require": {
+        "php": ">=5.5.0",
+        "zendframework/zendframework": "2.2.*",
+        "doctrine/doctrine-module": "dev-master",
+        "doctrine/doctrine-orm-module": "dev-master",
+        "evandotpro/edp-module-layouts": "dev-master",
+        "rwoverdijk/assetmanager": "1.*",
+        "evandotpro/edp-superluminal": "dev-master",
+        "ocramius/ocra-cached-view-resolver": "1.0.*",
+        "zf-commons/zfc-rbac": "0.2.2",
+        "zendframework/zend-developer-tools": "dev-master"
+    }
+}
